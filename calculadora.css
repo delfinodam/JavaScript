@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 40px;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+h1 {
+    color: #007bff;
+}
+
+div {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="number"],
+select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#resultado {
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #e9ecef;
+    color: black;
+}
+
+body.modo-nocturno {
+    background-color: #333;
+    color: #f4f4f4;
+}
+
+button.modo-nocturno {
+    background-color: #0056b3;
+}
